@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria - GameTech</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        /* Ajustes para centralizar e dimensionar as imagens da galeria */
+        .img {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px; /* Espaçamento entre as imagens */
+            margin-top: 20px;
+        }
+        .img img {
+            height: 300px; /* Ajuste a altura conforme necessário */
+            width: auto;
+            max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+        }
+    </style>
 </head>
 <body>
 
@@ -24,11 +39,11 @@
 <section>
     <h1>Galeria</h1>
     <div class="img">
-        <img src="img/imagem1.jpg" alt="Imagem 1" style="height:500px; width:200;">
-        <img src="img/imagem2.jpg" alt="Imagem 2" style="height:500px; width:200;">
-        <img src="img/imagem3.jpg" alt="Imagem 2" style="height:500px; width:200;">
-        <img src="img/imagem4.jpg" alt="Imagem 2" style="height:500px; width:200;">
-        <img src="img/imagem5.jpg" alt="Imagem 2" style="height:500px; width:200;">
+        <img src="img/imagem1.jpg" alt="Imagem 1">
+        <img src="img/imagem2.jpg" alt="Imagem 2">
+        <img src="img/imagem3.jpg" alt="Imagem 3">
+        <img src="img/imagem4.jpg" alt="Imagem 4">
+        <img src="img/imagem5.jpg" alt="Imagem 5">
     </div>
 </section>
 
